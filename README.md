@@ -372,6 +372,9 @@ HTML, CSS, JavaScript, Node.js, MongoDB, Python (Flask, scikit-learn), Razorpay 
 
 ## DEMO AND REPOSITORY
 - **GitHub Repository:**(https://github.com/navneeta88/RiderSaathi)
-- **Demo Video:** (https://www.youtube.com/watch?si=1BMg38Hbj1HqSmlt&v=2ic6aMXlTtE&feature=youtu.be)  
+- **Demo Video:** (https://www.youtube.com/watch?si=1BMg38Hbj1HqSmlt&v=2ic6aMXlTtE&feature=youtu.be)
+- https://drive.google.com/file/d/1FrkqScAl39jDFGmVO47CrhagUvtqj6IS/view?usp=drivesdk
+- https://drive.google.com/file/d/1KzDy2WOQiHkvNzkaW3rnYgGRfLJ-9b37/view?usp=drivesdk
+- https://drive.google.com/file/d/19UW4xJN3AdT95c9Jo20l5xJOLHa0NNrt/view?usp=drivesdk  
 
 ---
