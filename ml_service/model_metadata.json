@@ -1,0 +1,68 @@
+{
+  "model_type": "LinearRegression",
+  "features": [
+    "rainfall_mm",
+    "temperature_c",
+    "aqi",
+    "curfew_active",
+    "platform",
+    "city_risk_index",
+    "hour_of_day",
+    "day_of_week"
+  ],
+  "target": "income_loss_pct",
+  "train_samples": 4000,
+  "test_samples": 1000,
+  "metrics": {
+    "linear_regression": {
+      "mae": 0.0545,
+      "rmse": 0.0689,
+      "r2": 0.785
+    },
+    "ridge": {
+      "mae": 0.0545,
+      "rmse": 0.0689,
+      "r2": 0.785
+    }
+  },
+  "cv_r2": {
+    "linear_regression": {
+      "mean": 0.8054,
+      "std": 0.0157
+    },
+    "ridge": {
+      "mean": 0.8054,
+      "std": 0.0157
+    }
+  },
+  "coefficients": {
+    "curfew_active": 0.098038,
+    "aqi": 0.05492,
+    "rainfall_mm": 0.048247,
+    "temperature_c": 0.047839,
+    "city_risk_index": 0.0121,
+    "day_of_week": -0.011198,
+    "hour_of_day": -0.008213,
+    "platform": 0.000694
+  },
+  "scaler_mean": [
+    19.832337990224296,
+    33.8447077551549,
+    124.88875148211488,
+    0.049,
+    2.018,
+    0.6614724999999936,
+    11.632,
+    2.9775
+  ],
+  "scaler_scale": [
+    20.211917054037585,
+    5.944044434700274,
+    100.28103019134467,
+    0.21586801523152832,
+    1.4140990064348182,
+    0.12020818085201117,
+    6.872668768389757,
+    1.9964953668867347
+  ]
+}

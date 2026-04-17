@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes paymentPulse {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 100, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 16px rgba(0, 255, 100, 0.08);
+  }
+}
+
+@keyframes checkCircle {
+  0% {
+    stroke-dashoffset: 176;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes checkMark {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.payment-approved-card {
+  border-color: #00ff64;
+  animation: paymentPulse 0.8s ease-out;
+}
+
+.gpay-checkmark {
+  width: 64px;
+  height: 64px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 255, 100, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(0,255,100,0.2);
+}
+
+.gpay-checkmark svg circle {
+  stroke-dasharray: 176;
+  stroke-dashoffset: 176;
+  animation: checkCircle 0.9s ease-out forwards;
+}
+
+.gpay-checkmark svg path {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: checkMark 0.6s ease-out 0.4s forwards;
+}

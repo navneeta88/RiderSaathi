@@ -1,0 +1,122 @@
+{
+  "model_type": "GradientBoostingRegressor",
+  "features": [
+    "days_worked_per_week",
+    "avg_daily_hours",
+    "weeks_on_platform",
+    "total_claims",
+    "fraudulent_claims",
+    "gps_zone_violations",
+    "aadhaar_verified",
+    "pan_verified",
+    "bank_verified",
+    "late_logins",
+    "order_completion_rate",
+    "avg_rating",
+    "sudden_activity_drops",
+    "claim_gap_days_avg",
+    "income_consistency"
+  ],
+  "target": "bts_score",
+  "train_samples": 6400,
+  "test_samples": 1600,
+  "metrics": {
+    "linear_regression": {
+      "mae": 2.214,
+      "rmse": 2.988,
+      "r2": 0.9878
+    },
+    "gradient_boosting": {
+      "mae": 1.789,
+      "rmse": 2.307,
+      "r2": 0.9927
+    }
+  },
+  "cv_r2": {
+    "mean": 0.9927,
+    "std": 0.0003
+  },
+  "feature_importances": {
+    "fraudulent_claims": 0.83838,
+    "days_worked_per_week": 0.04745,
+    "income_consistency": 0.04048,
+    "gps_zone_violations": 0.02613,
+    "bank_verified": 0.01592,
+    "order_completion_rate": 0.01168,
+    "avg_daily_hours": 0.00494,
+    "pan_verified": 0.00416,
+    "total_claims": 0.00301,
+    "aadhaar_verified": 0.00266,
+    "avg_rating": 0.00262,
+    "sudden_activity_drops": 0.00154,
+    "weeks_on_platform": 0.00054,
+    "late_logins": 0.00033,
+    "claim_gap_days_avg": 0.00016
+  },
+  "scaler_mean": [
+    4.53890625,
+    6.828963437499977,
+    43.714375,
+    3.53546875,
+    1.05359375,
+    0.87609375,
+    0.89421875,
+    0.751875,
+    0.796875,
+    0.76265625,
+    0.8537362500000026,
+    4.238370312500004,
+    0.4928125,
+    145.87212078125057,
+    0.24705140624999938
+  ],
+  "scaler_scale": [
+    1.566759810472185,
+    2.035908845018779,
+    29.408751560706683,
+    4.015865967356793,
+    2.818205805110867,
+    2.04827451558884,
+    0.3075574371535114,
+    0.4319247438790493,
+    0.40232478717449166,
+    1.4461411391479404,
+    0.1420382721256409,
+    0.5921225090140965,
+    0.9908699913933199,
+    110.85090325678001,
+    0.23694755619893484
+  ],
+  "bts_tiers": [
+    {
+      "min": 90,
+      "max": 100,
+      "label": "Trusted",
+      "premium_inr": 15
+    },
+    {
+      "min": 80,
+      "max": 89,
+      "label": "Reliable",
+      "premium_inr": 25
+    },
+    {
+      "min": 70,
+      "max": 79,
+      "label": "Standard",
+      "premium_inr": 40
+    },
+    {
+      "min": 60,
+      "max": 69,
+      "label": "Caution",
+      "premium_inr": 60
+    },
+    {
+      "min": 0,
+      "max": 59,
+      "label": "High Risk",
+      "premium_inr": 100
+    }
+  ]
+}

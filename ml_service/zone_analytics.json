@@ -1,0 +1,1300 @@
+{
+  "generated_at": "2026-04-16T00:00:49.932605",
+  "city_heatmap": [
+    {
+      "city": "Chennai",
+      "pred_risk_score": 0.1647,
+      "pred_risk_level": "low",
+      "pred_claims": 39,
+      "city_base_risk": 0.6,
+      "avg_rainfall": 61.7,
+      "avg_temp": 12.9,
+      "avg_aqi": 77.2,
+      "curfew_days": 0
+    },
+    {
+      "city": "Delhi",
+      "pred_risk_score": 0.1147,
+      "pred_risk_level": "low",
+      "pred_claims": 36,
+      "city_base_risk": 0.85,
+      "avg_rainfall": 2.0,
+      "avg_temp": 12.7,
+      "avg_aqi": 294.6,
+      "curfew_days": 0
+    },
+    {
+      "city": "Kolkata",
+      "pred_risk_score": 0.1106,
+      "pred_risk_level": "low",
+      "pred_claims": 33,
+      "city_base_risk": 0.75,
+      "avg_rainfall": 1.7,
+      "avg_temp": 13.1,
+      "avg_aqi": 94.5,
+      "curfew_days": 0
+    },
+    {
+      "city": "Mumbai",
+      "pred_risk_score": 0.1053,
+      "pred_risk_level": "low",
+      "pred_claims": 35,
+      "city_base_risk": 0.8,
+      "avg_rainfall": 3.0,
+      "avg_temp": 13.0,
+      "avg_aqi": 94.4,
+      "curfew_days": 0
+    },
+    {
+      "city": "Noida",
+      "pred_risk_score": 0.0982,
+      "pred_risk_level": "low",
+      "pred_claims": 31,
+      "city_base_risk": 0.72,
+      "avg_rainfall": 1.2,
+      "avg_temp": 10.8,
+      "avg_aqi": 295.1,
+      "curfew_days": 0
+    },
+    {
+      "city": "Jaipur",
+      "pred_risk_score": 0.0922,
+      "pred_risk_level": "low",
+      "pred_claims": 28,
+      "city_base_risk": 0.65,
+      "avg_rainfall": 3.0,
+      "avg_temp": 11.2,
+      "avg_aqi": 279.4,
+      "curfew_days": 0
+    },
+    {
+      "city": "Lucknow",
+      "pred_risk_score": 0.0921,
+      "pred_risk_level": "low",
+      "pred_claims": 29,
+      "city_base_risk": 0.7,
+      "avg_rainfall": 1.6,
+      "avg_temp": 10.7,
+      "avg_aqi": 300.4,
+      "curfew_days": 0
+    },
+    {
+      "city": "Pune",
+      "pred_risk_score": 0.0801,
+      "pred_risk_level": "low",
+      "pred_claims": 26,
+      "city_base_risk": 0.48,
+      "avg_rainfall": 2.9,
+      "avg_temp": 12.6,
+      "avg_aqi": 84.7,
+      "curfew_days": 1
+    },
+    {
+      "city": "Hyderabad",
+      "pred_risk_score": 0.0795,
+      "pred_risk_level": "low",
+      "pred_claims": 27,
+      "city_base_risk": 0.5,
+      "avg_rainfall": 0.9,
+      "avg_temp": 11.9,
+      "avg_aqi": 96.5,
+      "curfew_days": 0
+    },
+    {
+      "city": "Bengaluru",
+      "pred_risk_score": 0.0724,
+      "pred_risk_level": "low",
+      "pred_claims": 28,
+      "city_base_risk": 0.55,
+      "avg_rainfall": 1.3,
+      "avg_temp": 12.7,
+      "avg_aqi": 69.5,
+      "curfew_days": 0
+    }
+  ],
+  "weekly_trends": {
+    "Bengaluru": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2502,
+        "predicted": 0.2165,
+        "risk_level": "low"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2209,
+        "predicted": 0.2408,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2539,
+        "predicted": 0.1991,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.2072,
+        "predicted": 0.1906,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1711,
+        "predicted": 0.2073,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.2094,
+        "predicted": 0.1588,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1208,
+        "predicted": 0.1191,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0681,
+        "predicted": 0.0778,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0679,
+        "predicted": 0.0809,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0798,
+        "predicted": 0.0788,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0743,
+        "predicted": 0.073,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0751,
+        "predicted": 0.078,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0618,
+        "predicted": 0.0748,
+        "risk_level": "low"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0721,
+        "predicted": 0.0748,
+        "risk_level": "low"
+      }
+    ],
+    "Chennai": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.1326,
+        "predicted": 0.1368,
+        "risk_level": "low"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.0919,
+        "predicted": 0.1323,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.1847,
+        "predicted": 0.2722,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.3221,
+        "predicted": 0.2209,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.2369,
+        "predicted": 0.1533,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1334,
+        "predicted": 0.2063,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1975,
+        "predicted": 0.1944,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.2245,
+        "predicted": 0.2419,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.192,
+        "predicted": 0.2681,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.3156,
+        "predicted": 0.2552,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.2642,
+        "predicted": 0.2196,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.2189,
+        "predicted": 0.2367,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.2458,
+        "predicted": 0.3389,
+        "risk_level": "medium"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.3776,
+        "predicted": 0.2215,
+        "risk_level": "low"
+      }
+    ],
+    "Delhi": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2364,
+        "predicted": 0.2637,
+        "risk_level": "low"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2573,
+        "predicted": 0.1331,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.1011,
+        "predicted": 0.1855,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1914,
+        "predicted": 0.1244,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1016,
+        "predicted": 0.108,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1053,
+        "predicted": 0.117,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1103,
+        "predicted": 0.1113,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0958,
+        "predicted": 0.1144,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1246,
+        "predicted": 0.1117,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.112,
+        "predicted": 0.1044,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0782,
+        "predicted": 0.1153,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0992,
+        "predicted": 0.1143,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.1054,
+        "predicted": 0.1158,
+        "risk_level": "low"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.1084,
+        "predicted": 0.1122,
+        "risk_level": "low"
+      }
+    ],
+    "Hyderabad": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2471,
+        "predicted": 0.1808,
+        "risk_level": "low"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.1463,
+        "predicted": 0.2002,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2226,
+        "predicted": 0.1553,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1257,
+        "predicted": 0.2353,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.2645,
+        "predicted": 0.2204,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.2281,
+        "predicted": 0.1176,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.097,
+        "predicted": 0.0742,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0534,
+        "predicted": 0.0726,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.064,
+        "predicted": 0.0999,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1308,
+        "predicted": 0.0769,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0665,
+        "predicted": 0.0771,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0686,
+        "predicted": 0.0771,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0855,
+        "predicted": 0.0675,
+        "risk_level": "low"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0578,
+        "predicted": 0.0822,
+        "risk_level": "low"
+      }
+    ],
+    "Jaipur": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2879,
+        "predicted": 0.1732,
+        "risk_level": "low"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.1414,
+        "predicted": 0.1287,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.1019,
+        "predicted": 0.0878,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.074,
+        "predicted": 0.0916,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0889,
+        "predicted": 0.0893,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0867,
+        "predicted": 0.101,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0719,
+        "predicted": 0.0861,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0911,
+        "predicted": 0.0942,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0998,
+        "predicted": 0.0982,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1121,
+        "predicted": 0.1046,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1132,
+        "predicted": 0.0985,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0978,
+        "predicted": 0.0942,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0939,
+        "predicted": 0.1033,
+        "risk_level": "low"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.1042,
+        "predicted": 0.1049,
+        "risk_level": "low"
+      }
+    ],
+    "Kolkata": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2748,
+        "predicted": 0.3626,
+        "risk_level": "medium"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.382,
+        "predicted": 0.1086,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.0831,
+        "predicted": 0.1026,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0954,
+        "predicted": 0.1029,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1035,
+        "predicted": 0.0944,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0824,
+        "predicted": 0.1004,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1049,
+        "predicted": 0.0985,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0953,
+        "predicted": 0.0925,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0861,
+        "predicted": 0.1063,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1037,
+        "predicted": 0.0975,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0883,
+        "predicted": 0.0999,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0778,
+        "predicted": 0.0961,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0972,
+        "predicted": 0.0896,
+        "risk_level": "low"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0854,
+        "predicted": 0.1055,
+        "risk_level": "low"
+      }
+    ],
+    "Lucknow": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.168,
+        "predicted": 0.2642,
+        "risk_level": "low"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2786,
+        "predicted": 0.2127,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.0876,
+        "predicted": 0.0957,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0953,
+        "predicted": 0.101,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0903,
+        "predicted": 0.094,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0878,
+        "predicted": 0.1359,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.177,
+        "predicted": 0.093,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0759,
+        "predicted": 0.0965,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0968,
+        "predicted": 0.1055,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1017,
+        "predicted": 0.102,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1004,
+        "predicted": 0.0993,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0983,
+        "predicted": 0.1426,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.1672,
+        "predicted": 0.0971,
+        "risk_level": "low"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0917,
+        "predicted": 0.0985,
+        "risk_level": "low"
+      }
+    ],
+    "Mumbai": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.3725,
+        "predicted": 0.2528,
+        "risk_level": "low"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2663,
+        "predicted": 0.1495,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.1173,
+        "predicted": 0.1093,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0993,
+        "predicted": 0.1007,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0866,
+        "predicted": 0.1118,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1204,
+        "predicted": 0.1052,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0889,
+        "predicted": 0.0999,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0827,
+        "predicted": 0.1126,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1193,
+        "predicted": 0.1032,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1084,
+        "predicted": 0.1022,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.086,
+        "predicted": 0.1014,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0971,
+        "predicted": 0.0983,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0588,
+        "predicted": 0.1009,
+        "risk_level": "low"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.1175,
+        "predicted": 0.0983,
+        "risk_level": "low"
+      }
+    ],
+    "Noida": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.3113,
+        "predicted": 0.2224,
+        "risk_level": "low"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2481,
+        "predicted": 0.2432,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.0879,
+        "predicted": 0.1057,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0896,
+        "predicted": 0.1045,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1052,
+        "predicted": 0.1223,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.1659,
+        "predicted": 0.106,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0793,
+        "predicted": 0.0891,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0983,
+        "predicted": 0.1005,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1166,
+        "predicted": 0.1041,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1012,
+        "predicted": 0.103,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0932,
+        "predicted": 0.108,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0833,
+        "predicted": 0.1269,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.1734,
+        "predicted": 0.0998,
+        "risk_level": "low"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.1013,
+        "predicted": 0.1131,
+        "risk_level": "low"
+      }
+    ],
+    "Pune": [
+      {
+        "week": 38,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.2209,
+        "predicted": 0.1648,
+        "risk_level": "low"
+      },
+      {
+        "week": 39,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.1477,
+        "predicted": 0.1131,
+        "risk_level": "low"
+      },
+      {
+        "week": 40,
+        "year": 2024,
+        "month": 9,
+        "actual": 0.0646,
+        "predicted": 0.093,
+        "risk_level": "low"
+      },
+      {
+        "week": 41,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.073,
+        "predicted": 0.0652,
+        "risk_level": "low"
+      },
+      {
+        "week": 42,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.066,
+        "predicted": 0.0683,
+        "risk_level": "low"
+      },
+      {
+        "week": 43,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0596,
+        "predicted": 0.0681,
+        "risk_level": "low"
+      },
+      {
+        "week": 44,
+        "year": 2024,
+        "month": 10,
+        "actual": 0.0649,
+        "predicted": 0.0707,
+        "risk_level": "low"
+      },
+      {
+        "week": 45,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0791,
+        "predicted": 0.0602,
+        "risk_level": "low"
+      },
+      {
+        "week": 46,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.06,
+        "predicted": 0.0723,
+        "risk_level": "low"
+      },
+      {
+        "week": 47,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.0742,
+        "predicted": 0.061,
+        "risk_level": "low"
+      },
+      {
+        "week": 48,
+        "year": 2024,
+        "month": 11,
+        "actual": 0.1267,
+        "predicted": 0.0755,
+        "risk_level": "low"
+      },
+      {
+        "week": 49,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0578,
+        "predicted": 0.0709,
+        "risk_level": "low"
+      },
+      {
+        "week": 50,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.0825,
+        "predicted": 0.1133,
+        "risk_level": "low"
+      },
+      {
+        "week": 51,
+        "year": 2024,
+        "month": 12,
+        "actual": 0.1523,
+        "predicted": 0.082,
+        "risk_level": "low"
+      }
+    ]
+  },
+  "season_stats": {
+    "Monsoon": {
+      "avg_risk": 0.2203,
+      "peak_risk": 0.432,
+      "weeks": 350
+    },
+    "Post-Monsoon": {
+      "avg_risk": 0.1206,
+      "peak_risk": 0.3426,
+      "weeks": 170
+    },
+    "Pre-Monsoon": {
+      "avg_risk": 0.1091,
+      "peak_risk": 0.298,
+      "weeks": 260
+    },
+    "Winter": {
+      "avg_risk": 0.0977,
+      "peak_risk": 0.3776,
+      "weeks": 250
+    }
+  },
+  "trigger_corr": {
+    "avg_rainfall_mm": 0.7414,
+    "avg_temp_c": 0.2811,
+    "avg_aqi": -0.1363,
+    "curfew_days": -0.0007
+  },
+  "top_risk_city": "Chennai",
+  "cities_high": [],
+  "cities_medium": [],
+  "cities_low": [
+    "Chennai",
+    "Delhi",
+    "Kolkata",
+    "Mumbai",
+    "Noida",
+    "Jaipur",
+    "Lucknow",
+    "Pune",
+    "Hyderabad",
+    "Bengaluru"
+  ]
+}

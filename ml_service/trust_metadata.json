@@ -1,0 +1,128 @@
+{
+  "model_type": "GradientBoostingRegressor + IsotonicCalibration",
+  "features": [
+    "income_loss_pct",
+    "risk_probability",
+    "city_risk_index",
+    "curfew_active",
+    "triggers_fired_count",
+    "bts_score",
+    "consistency_pts",
+    "clean_claim_pts",
+    "gps_compliance_pts",
+    "doc_pts",
+    "bts_flags_count",
+    "if_norm_score",
+    "clf_fraud_proba",
+    "fraud_flags_count",
+    "location_risk",
+    "temporal_risk",
+    "activity_risk",
+    "behavioral_risk"
+  ],
+  "target": "trust_score",
+  "thresholds": {
+    "approve": "> 0.75  \u2192 instant payout",
+    "review": "0.50\u20130.75 \u2192 soft verification",
+    "reject": "< 0.50  \u2192 auto-block"
+  },
+  "metrics": {
+    "mae_before_calibration": 0.0752,
+    "mae_after_calibration": 0.0766,
+    "r2_before_calibration": 0.9398,
+    "r2_after_calibration": 0.9358,
+    "decision_accuracy_pct": 92.57
+  },
+  "cv_r2": {
+    "mean": 0.9392,
+    "std": 0.0008
+  },
+  "feature_importances": {
+    "clf_fraud_proba": 0.474465,
+    "fraud_flags_count": 0.360354,
+    "if_norm_score": 0.137741,
+    "bts_score": 0.01185,
+    "consistency_pts": 0.002161,
+    "activity_risk": 0.001701,
+    "temporal_risk": 0.001647,
+    "triggers_fired_count": 0.001647,
+    "behavioral_risk": 0.001579,
+    "bts_flags_count": 0.00124,
+    "curfew_active": 0.001016,
+    "location_risk": 0.000859,
+    "doc_pts": 0.000714,
+    "clean_claim_pts": 0.000685,
+    "city_risk_index": 0.000654,
+    "risk_probability": 0.000596,
+    "income_loss_pct": 0.000557,
+    "gps_compliance_pts": 0.000531
+  },
+  "input_sources": {
+    "risk_model": [
+      "income_loss_pct",
+      "risk_probability",
+      "city_risk_index",
+      "curfew_active",
+      "triggers_fired_count"
+    ],
+    "bts_engine": [
+      "bts_score",
+      "consistency_pts",
+      "clean_claim_pts",
+      "gps_compliance_pts",
+      "doc_pts",
+      "bts_flags_count"
+    ],
+    "fraud_detector": [
+      "if_norm_score",
+      "clf_fraud_proba",
+      "fraud_flags_count",
+      "location_risk",
+      "temporal_risk",
+      "activity_risk",
+      "behavioral_risk"
+    ]
+  },
+  "train_samples": 12000,
+  "test_samples": 3000,
+  "scaler_mean": [
+    0.27049839592090086,
+    48.72739432569351,
+    0.65069258001642,
+    0.047,
+    1.1125833333333333,
+    64.32528909409992,
+    25.705887702835994,
+    15.999808931889469,
+    12.836231501384168,
+    9.6270649021327,
+    2.481810880837497,
+    0.6087290362509792,
+    0.38572534113316587,
+    2.0887129503414017,
+    0.8181713888481676,
+    0.8436640079205674,
+    0.8184659883815357,
+    0.8448108249083879
+  ],
+  "scaler_scale": [
+    0.12368873685063132,
+    22.75491672851715,
+    0.123606301671612,
+    0.21163884331566965,
+    0.9471404294272595,
+    25.618524752481303,
+    10.37839474895174,
+    6.599341853307425,
+    5.188030264297239,
+    3.906917108214029,
+    2.3925049676878767,
+    0.31334520329347915,
+    0.4120348383773692,
+    1.9753094168358662,
+    0.6272685862576135,
+    0.6299565669118818,
+    0.6241392568427253,
+    0.6289525611049027
+  ]
+}

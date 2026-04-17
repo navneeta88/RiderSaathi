@@ -1,0 +1,114 @@
+{
+  "features": [
+    "registered_zone_dist_km",
+    "ip_location_dist_km",
+    "location_jump_km",
+    "is_vpn",
+    "hour_of_claim",
+    "days_since_last_claim",
+    "claims_this_week",
+    "claim_during_event",
+    "orders_last_24h",
+    "activity_drop_pct",
+    "device_motion_score",
+    "app_session_minutes",
+    "bts_score",
+    "claim_amount_vs_avg",
+    "duplicate_ip_count",
+    "network_cluster_size"
+  ],
+  "model_layers": {
+    "layer1": "IsolationForest (unsupervised, contamination=0.12)",
+    "layer2": "GradientBoostingClassifier (supervised)",
+    "layer3": "Ensemble trust score (IF\u00d70.40 + clf\u00d70.60)"
+  },
+  "weights": {
+    "isolation_forest": 0.4,
+    "classifier": 0.6
+  },
+  "if_score_range": {
+    "lo": -0.690103759204028,
+    "hi": -0.35749103473238125
+  },
+  "thresholds": {
+    "auto_approve": "> 0.75",
+    "review": "0.50 \u2013 0.75",
+    "auto_reject": "< 0.50"
+  },
+  "metrics": {
+    "roc_auc": 1.0,
+    "avg_precision": 1.0,
+    "precision_fraud": 1.0,
+    "recall_fraud": 1.0,
+    "f1_fraud": 1.0
+  },
+  "confusion_matrix": {
+    "TN": 2112,
+    "FP": 0,
+    "FN": 0,
+    "TP": 288
+  },
+  "feature_importances": {
+    "ip_location_dist_km": 0.99027,
+    "bts_score": 0.00539,
+    "device_motion_score": 0.00353,
+    "claims_this_week": 0.00063,
+    "app_session_minutes": 0.00013,
+    "activity_drop_pct": 2e-05,
+    "location_jump_km": 1e-05,
+    "network_cluster_size": 1e-05,
+    "claim_amount_vs_avg": 1e-05,
+    "registered_zone_dist_km": 0.0,
+    "orders_last_24h": 0.0,
+    "days_since_last_claim": 0.0,
+    "hour_of_claim": 0.0,
+    "duplicate_ip_count": 0.0,
+    "claim_during_event": 0.0,
+    "is_vpn": 0.0
+  },
+  "fraud_archetypes": [
+    "gps_spoof",
+    "coord_ring",
+    "serial_claimer",
+    "vpn_fake",
+    "bot_flood"
+  ],
+  "train_samples": 9600,
+  "test_samples": 2400,
+  "scaler_mean": [
+    2.2056395433678877,
+    7.992382210259469,
+    3.3181143586601305,
+    0.0575,
+    12.098020833333333,
+    54.162546180475225,
+    0.7766666666666666,
+    0.7610416666666666,
+    10.993827702149778,
+    51.65479990240153,
+    0.7902856632205744,
+    40.57979522005245,
+    76.6668901508834,
+    1.0722755069162777,
+    1.4205208333333332,
+    1.9930208333333332
+  ],
+  "scaler_scale": [
+    4.735067238046621,
+    38.963164876758555,
+    9.505292113183962,
+    0.2327955111250945,
+    3.762019105422823,
+    56.697940733192425,
+    1.2210469096457228,
+    0.4264472397189311,
+    4.696563911760393,
+    17.69644716329558,
+    0.18741021523426338,
+    18.526442769526337,
+    17.38966713984398,
+    0.28130327147381384,
+    1.9220582878951142,
+    3.9842990338616384
+  ]
+}

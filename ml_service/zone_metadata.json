@@ -1,0 +1,129 @@
+{
+  "features": [
+    "avg_rainfall_mm",
+    "max_rainfall_mm",
+    "avg_rainfall_mm_lag1",
+    "avg_rainfall_mm_lag2",
+    "avg_temp_c",
+    "max_temp_c",
+    "avg_temp_c_lag1",
+    "avg_aqi",
+    "max_aqi",
+    "avg_aqi_lag1",
+    "curfew_days",
+    "city_base_risk",
+    "city_density_idx",
+    "platform_coverage",
+    "month",
+    "is_monsoon",
+    "disruption_streak",
+    "risk_score_mean",
+    "risk_score_mean_lag1",
+    "risk_score_mean_lag2"
+  ],
+  "models": {
+    "risk_score": {
+      "type": "GradientBoostingRegressor",
+      "mae": 0.0311,
+      "r2": 0.6925
+    },
+    "risk_level": {
+      "type": "GradientBoostingClassifier",
+      "accuracy": 0.9466
+    },
+    "claims": {
+      "type": "GradientBoostingRegressor",
+      "mae": 3.4,
+      "r2": 0.7637
+    }
+  },
+  "risk_thresholds": {
+    "high": ">=0.55",
+    "medium": "0.30\u20130.54",
+    "low": "<0.30"
+  },
+  "cities": [
+    "Delhi",
+    "Mumbai",
+    "Noida",
+    "Bengaluru",
+    "Hyderabad",
+    "Chennai",
+    "Kolkata",
+    "Pune",
+    "Jaipur",
+    "Lucknow"
+  ],
+  "feature_importances": {
+    "avg_rainfall_mm": 0.509561,
+    "max_rainfall_mm": 0.116805,
+    "city_density_idx": 0.047939,
+    "risk_score_mean": 0.039066,
+    "city_base_risk": 0.037626,
+    "avg_temp_c_lag1": 0.036488,
+    "max_temp_c": 0.025827,
+    "month": 0.025247,
+    "risk_score_mean_lag1": 0.025056,
+    "avg_rainfall_mm_lag2": 0.022141,
+    "risk_score_mean_lag2": 0.021519,
+    "avg_aqi_lag1": 0.021424,
+    "avg_aqi": 0.019898,
+    "avg_rainfall_mm_lag1": 0.017233,
+    "max_aqi": 0.014112,
+    "avg_temp_c": 0.012823,
+    "is_monsoon": 0.002366,
+    "platform_coverage": 0.002047,
+    "disruption_streak": 0.001699,
+    "curfew_days": 0.001121
+  },
+  "label_classes": [
+    "low",
+    "medium"
+  ],
+  "scaler_mean": [
+    22.032584301317588,
+    55.98709951456316,
+    22.40839285714286,
+    22.27386615811374,
+    26.886590239251053,
+    32.351019417475705,
+    27.071454576976382,
+    114.13554958391119,
+    166.6063106796118,
+    113.66735653606099,
+    0.0825242718446602,
+    0.6610679611650527,
+    0.7166868932038823,
+    4.002427184466019,
+    6.324029126213592,
+    0.34101941747572817,
+    0.22936893203883496,
+    0.14520546766643547,
+    0.14617555695214995,
+    0.14599212248613055
+  ],
+  "scaler_scale": [
+    30.29230543812712,
+    74.09057751931368,
+    30.36600993707099,
+    30.501810798303907,
+    8.963344808318292,
+    9.366734074009742,
+    8.817869538476293,
+    55.61643192915323,
+    62.8053893085199,
+    54.19095512903219,
+    0.28384570691346933,
+    0.11959711998804778,
+    0.1310342318835014,
+    0.7758452528361466,
+    3.3887456910153277,
+    0.4740518688711639,
+    0.5908374752345842,
+    0.0797728706426772,
+    0.08085938368127821,
+    0.07972917700921553
+  ],
+  "train_samples": 824,
+  "test_samples": 206
+}
