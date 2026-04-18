@@ -382,7 +382,7 @@ app.post("/api/admin/triggers/:id/toggle", adminAuth, (req, res) => {
 });
 
 // ── Start Server ──────────────────────────────────────────────
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`✅ RiderSaathi backend running on http://localhost:${PORT}`);
   console.log(`💾 Data saved permanently in: database.json`);
