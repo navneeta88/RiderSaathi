@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Card, Badge, Spinner, G } from "../components/UI";
 import { useTheme } from "../App";
 
-const ADMIN_API = "http://localhost:5000/api/admin";
+const ADMIN_API = (process.env.REACT_APP_API_URL || "http://localhost:5000/api") + "/admin";
 
 export default function AdminPage({ setPage }) {
   const { dark, toggleTheme } = useTheme();
@@ -45,8 +45,9 @@ export default function AdminPage({ setPage }) {
         fetch(`${ADMIN_API}/claims`, { headers }).then(r => r.json()),
         fetch(`${ADMIN_API}/users`, { headers }).then(r => r.json()),
         fetch(`${ADMIN_API}/payments`, { headers }).then(r => r.json()),
-        fetch("http://localhost:5000/api/triggers").then(r => r.json()),
-        fetch("http://localhost:5001/health").then(r => r.json()).catch(() => null),
+        fetch(`${process.env.REACT_APP_API_URL || "http://localhost:5000/api"}/triggers`),
+
+        fetch(`${process.env.REACT_APP_ML_URL || "http://localhost:5001"}/health`),
       ]);
       setStats(s); setClaims(Array.isArray(c) ? c : []);
       setUsers(Array.isArray(u) ? u : []); setPayments(Array.isArray(p) ? p : []);

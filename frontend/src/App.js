@@ -14,7 +14,7 @@ import Navbar from "./components/Navbar.js";
 
 export const AuthCtx = createContext(null);
 export function useAuth() { return useContext(AuthCtx); }
-export const API = "http://localhost:5000/api";
+export const API = process.env.REACT_APP_API_URL || "http://localhost:5000/api";
 
 export const ThemeCtx = createContext({ dark: true, toggleTheme: () => {} });
 export function useTheme() { return useContext(ThemeCtx); }
